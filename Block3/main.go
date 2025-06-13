@@ -10,6 +10,7 @@ func main() {
 	ageVerification(7)
 }
 
+//11. 🔍 Равно ли нулю
 func equalToZero(number int) {
 	if number == 0 {
 		fmt.Println("Число равно нулю")
@@ -19,6 +20,7 @@ func equalToZero(number int) {
 	fmt.Println("Число не равно нулю")
 }
 
+//12. 🪞 Число больше 100?
 func numberMoreHundred(number int) {
 	if number > 100 {
 		fmt.Println("Много")
@@ -27,6 +29,7 @@ func numberMoreHundred(number int) {
 	}
 }
 
+//13. 🔃 Сравнение двух чисел
 func comparingTwoNumbers(a, b int) {
 	if b > a {
 		fmt.Println("Второе больше")
@@ -36,6 +39,7 @@ func comparingTwoNumbers(a, b int) {
 	fmt.Println("Первое больше")
 }
 
+//14. 📛 Делится на 3
 func divideOnThree(number int) {
 	if number%3 == 0 {
 		fmt.Println("Делится")
@@ -45,6 +49,7 @@ func divideOnThree(number int) {
 	fmt.Println("Не делится на 3")
 }
 
+//15. 🧠 Простая проверка возраста
 func ageVerification(age int) {
 	if age < 7 {
 		fmt.Println("Ты малыш")
