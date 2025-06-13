@@ -28,5 +28,5 @@ func costCalculation(price float64, count int) {
 }
 
 func timeConverter(minutes int) {
-	fmt.Printf("Вывод: %d часа %d минут\n", (minutes / 60), (minutes % 60))
+	fmt.Printf("Вывод: %d часа %d минут!\n", (minutes / 60), (minutes % 60))
 }
